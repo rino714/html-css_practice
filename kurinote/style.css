@@ -1,0 +1,394 @@
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;  
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+/*ーーーーーーｃｓｓスタート*/
+html {
+    margin: 0;
+    padding:0;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: serif;
+    font-weight: 500;
+    color:black;
+    line-height: 2.0;
+  }
+  
+  h2,h3,h4,h5 {
+    margin: 0;
+    padding: 0;
+  }
+  
+  figure {
+    margin: 0;
+  }
+  
+  img {
+    width: 100%;
+    vertical-align: bottom;
+  }
+  
+  ul,li,dl,dt,dd {
+    margin:0;
+    padding:0;
+    list-style: none;
+  }
+  
+  a { 
+    text-decoration: none;
+    color: #000;
+  }
+  
+  a:hover { 
+    transition: .3s;
+    opacity: 0.6;
+  }
+  
+  section {
+    margin-bottom: 120px;
+  }
+  
+  .content-wrapper {
+     width: 1400px;
+     margin: 0 auto;
+   }
+
+
+   .header h1 {
+       padding-left: 40px;
+       padding-top: 5px;
+       font-size: 30px;
+       border-bottom: black solid;
+   }
+
+.header-nav {
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header nav ul li {
+    margin-right: 80px;
+    border-bottom:3px solid #333;
+    padding: 5px 7px ;
+    display: inline-block;
+}
+
+
+
+.mainvisual {
+    position: relative;
+    height: 600px;
+}
+
+.mainvisual img{
+    width: 70%;
+    height: 500px;
+    object-fit: cover;
+    margin-left: 30% ;
+}
+
+.mainvisual h2{
+    position: absolute;
+    top: 30%;
+    left: 22%;
+    background: rgba(255,255 ,255, 0.6);
+    font-size: 3rem;
+    padding: 8px 15px;
+}
+
+.bg1{
+    background-color: rgb(126, 101, 88);
+    position: absolute;
+    top: -18%;
+    left: 0;
+    z-index: -1;
+    height: 700px;
+    width: 45%;
+}
+
+.greeting h2 {
+    margin-bottom: 50px;
+    font-weight: 10px;
+    text-align: center;
+    padding: 0.5em 0;
+    border-top: 3px solid rgb(78, 33, 11);
+    border-bottom: 3px solid rgb(78, 33, 11);
+}
+
+.greeting .contents {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin: 0 auto;
+    align-items: center;
+
+}
+
+.greeting .contents figure {
+    width: 50%;
+}
+
+.greeting .content {
+    width: 48%;
+}
+
+.work {
+    width: 100%;
+    padding-top: 40px;
+    position: relative;
+}
+.work::before{
+    content: '';
+    background-color:rgb(126, 101, 88) ;
+    position: absolute;
+    width: 100%;
+    height: 300px;
+    z-index: -1;
+}
+.work h2 {
+    text-align: center;
+    margin-bottom: 60px;
+    font-size: 30px;
+    
+}
+
+.work ul {
+    display: flex;
+    justify-content:space-between;
+    width: 1400px;
+    margin: 0 auto;
+}
+
+.work ul li{
+    width: 400px;
+}
+
+.work ul li figure  {
+    margin: 0;
+}
+
+.news .content-wrapper{
+    width: 1200px;
+    margin-bottom: 180px;
+    margin: 0 auto;
+}
+
+.news h2 {
+    text-align: center;
+    margin-bottom: 50px;
+    border-bottom: black solid 2px;
+}
+
+.news li{
+    border-bottom: 1px dotted gray;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.news li a{
+    color: #333333;
+}
+
+.news li a:hover {
+    opacity: 0.7;
+}
+
+.news li time {
+    font-size: 0.75em;
+    color: gray;
+    padding-right: 0;
+    margin-right: 80px;
+}
+
+.recruit {
+    position:relative ;
+}
+
+.recruit-img img {
+    width: 80%;
+    height: 400px ;
+    margin-right: 20%;
+    object-fit: cover;
+}
+
+.news img::after{
+    content: '';
+    position: absolute;
+    width: 80%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0,0, 0.6);
+}
+
+.recruit h2 a{
+    position: absolute;
+    top: 50%;
+    left: 37%;
+    background-color: rgba(255,255 ,255, 0.6);
+    font-size: 24px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    padding: 5px 70px;
+}
+.bg2 {
+    background-color:rgb(126, 101, 88) ;
+    position: absolute;
+    top: -6%;
+    right: 0;
+    z-index: -1;
+    height: 400px;
+    width: 45%;
+}
+
+footer .content-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 0;
+}
+
+.address p {
+    line-height: 1.8;
+    margin-left: 80px;
+}
+
+.address h2 {
+    padding-left: 80px;
+}
+
+.footer ul {
+    display: flex;
+}
+
+.footer ul li {
+    margin-right:80px;
+    border-bottom:3px solid #333;
+}
+
+.copyright p{
+    text-align: center;
+    font-size: 0.75rem;
+    margin: 0;
+    line-height: 100px;
+    color: #333;
+    background-color: #e8e7e7;
+    width: 1400px;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
